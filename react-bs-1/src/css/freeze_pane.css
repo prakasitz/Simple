@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.containBody{
+    height:300px;
+    display:block;
+    overflow:auto;  
+    border-bottom:1px solid #CCC;
+}
+.tbl_headerFix{
+    border-bottom:0px;  
+}

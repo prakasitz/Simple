@@ -1,0 +1,275 @@
+
+<html lang="en">
+
+<head>
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Chrunch Press">
+	<meta name="author" content="Chrunch Press">
+	<meta name="description" content="Awesome Description Here">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="keywords" content="location, based, messaging, social, network, service, nearby, friends, community, neighborhood, local, events">
+	<title>คณะวิทยาศาสตร์</title>
+	<!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<![endif]-->
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<!-- Add custom CSS here -->
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+	<!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css"> -->
+	<link href="css/color.css" rel="stylesheet">
+	<link href="css/table-class.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	<link href="css/jquery.bxslider.css" rel="stylesheet">
+	<link href="css/horizontal.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/freeze_pane.css">
+	<link rel="stylesheet " href="css/login.css">
+	<!-- Bx-Slider -->
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+	<link href="css/stylesSub.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<!-- Main Jquery File ตัวเก่า 1.10-2-->
+	<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+	<!---datatable-->
+	<!-- <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script> -->
+	<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+	<!-- Datepick -->
+	<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>-->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+	<!-- Datepick -->
+	<link href="css/calendar/jquery.datepick.css" rel="stylesheet">
+	<link href="jquery-loading-master/src/loading.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/calendar/jquery.calendars.picker.css">
+	<script type="text/javascript" src="js/jquery.calendars.js"></script>
+	<script type="text/javascript" src="js/jquery.calendars-th.js"></script>
+	<script type="text/javascript" src="js/jquery.calendars.plus.js"></script>
+	<script type="text/javascript" src="js/jquery.calendars.thai.js"></script>
+	<script type="text/javascript" src="js/jquery.calendars.thai-th.js"></script>
+	<script type="text/javascript" src="js/jquery.plugin.js"></script>
+	<script type="text/javascript" src="js/jquery.calendars.picker.js"></script>
+	<script type="text/javascript" src="js/jquery.calendars.picker-th.js"></script>
+	<script type="text/javascript" src="js/jquery.datepick.js"></script>
+	<script src="js/resouceChecker.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree" rel="stylesheet">
+
+
+</head>
+
+<body>
+	<!-- /. Main Container Start ./ -->
+	<div class="wrapper inner">
+		<!-- /. topbar start ./ -->
+		<div class="topbar">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 topnav"></div>
+					<div class="col-lg-6 col-md-6">
+						<div class="social pull-left"></div>
+						<div class="hlinks pull-right">
+							<ul>
+								<li id="login-nav">
+									<a id="a-login" style="width:auto; cursor: pointer;" onclick="document.getElementById('login').style.display='block'">เข้าสู่ระบบ</a>
+								</li>
+								<li>
+									<a id="a-logout" href="login.php" style="width:auto; cursor: pointer; display:none;">ออกจากระบบ</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /. topbar end ./ -->
+
+		<!-- /. Header Start ./ -->
+		<header id="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-3">
+						<div class="logo">
+							<a href="index.php">
+								<img src="images/inner-logo.png" alt="Logo" title="Pageant Beauty Palace" />
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-9 col-md-9">
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div>
+							<div class="navbar mm">
+								<div>
+									<nav class="navbar navbar-default" role="navigation">
+										<!-- Brand and toggle get grouped for better mobile display -->
+										<div class="navbar-header">
+											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+												<span class="sr-only">Toggle navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+										</div>
+										<div id="navbar-collapse-1" class="collapse navbar-collapse pull-right">
+											<ul class="nav navbar-nav">
+
+												<li>
+													<a href="index.php">หน้าหลัก</a>
+												</li>
+												<li>
+													<a id="a-create" href="#">สร้างโครงการ</a>
+												</li>
+												<li>
+													<a id="a-Uview" href="Uview_project.php">ดูโครงการ(ภาควิชา)</a>
+												</li>
+												<li>
+													<a id="a-project-file" href="view_project_file.php">ไฟล์</a>
+												</li>
+												<li class="dropdown">
+													<a id="a-admin" href="#" data-toggle="dropdown" class="dropdown-toggle">จัดการระบบ<b class="caret"></b></a>
+													<ul role="menu" class="dropdown-menu">
+													  <li><a href="admin_mission.php">จัดการพันธกิจ</a></li>
+													  <li><a href="admin_department.php">จัดการภาควิชา/หลักสูตร</a></li>
+													  <li><a href="admin_graduate.php">จัดการศูนย์ต้นทุน</a></li>
+													  <li><a href="admin_district.php">จัดการเขตตามหน้าที่</a></li>
+													  <li><a href="admin_strategy.php">จัดการยุทธศาสตร์</a></li>
+													  <li><a href="admin_template.php">จัดการต้นแบบชื่อโครงการ</a></li>
+													  <li><a href="admin_cost.php">จัดการส่วนประกอบต้นทุน</a></li>
+													  <li><a href="admin_user.php">จัดการผู้ใช้งาน</a></li>
+													  <li><a href="admin_settime.php">จัดการเวลาสร้างโครงการ</a></li>
+													  <li><a href="admin_projecttime.php">แสดงข้อมูลการอนุมัติโครงการ</a></li>
+													  <li><a href="admin_news.php">จัดการข่าวและคำประกาศ</a></li>
+													</ul>
+												  </li>
+												<li>
+													<a id="a-menu-sumup" href="Menu-sumup.php">รายงานงบประมาณ</a>
+												</li>
+												
+												
+												<li>
+													<a id="a-accept" href="view-approve-project.php">อนุมัติ</a>
+												</li>											
+											</ul>
+										</div>
+									</nav>
+								</div>
+							</div>
+						</div>
+						<!-- /. navbar-collapse ./ -->
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="DangerModalforChangeMonth"  role="dialog" data-backdrop="static" aria-labelledby="DangerModalforChangeMonthTitle"
+			 aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h1 class="modal-title display-4 text-center text-danger" id="exampleModalLongTitle" >คำเตือน!!</h1>
+						</div>
+						<div class="modal-body" style="text-align: center; padding-bottom: 0px;">
+							<h3>ถ้าคุณเปลี่ยนแปลง <u><strong>วัน/เดือน/ปี เริ่ม-จบ </strong></u>ของโครงการ</h3>
+							<h3>ระบบจะทำการ<u><strong class="text-danger">ลบข้อมูล</strong></u>ในส่วนของงบโครงการทั้งหมด</h3>
+							<h3 class="text-center"><em class="text-danger">คุณต้องการลบข้อมูลหรือไม่?</em></h3>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="cancel-modal-btn btn-secondary" data-dismiss="modal">ย้อนกลับ</button>
+							<button type="button" class="changeMonth-btn btn-danger">เปลี่ยนวันที่</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="login" class="modal">
+				<form name="frmlogin" method="post" class="modal-content-login animate-form" action="login.php">
+					<div class="containerForm">
+						<label for="Username"><b>ชื่อผู้ใช้</b></label>
+						<input type="text" class="input2" placeholder="Enter Username" name="Username" required>
+						<label for="Password"><b>รหัสผ่าน</b></label>
+						<input type="password" class="input2" placeholder="Enter Password" name="Password" required>
+					</div>
+					<div class="containerForm">
+						<button type="reset" id="btncancel-lgn" class="button1 cncl" onclick="document.getElementById('login').style.display='none'">ย้อนกลับ</button>
+						<button type="submit" id="btnaccept-lgn" class="button1 acpt">ล๊อคอิน</button>
+					</div>
+				</form>
+			</div>
+
+			<script>
+				$(document).ready(function () {
+					var signup =  $(".signup");
+					var user_type = signup.attr("for");
+					var dept = signup.attr("list");
+					var user = signup.attr("aria-label");
+					var str = "";
+
+					if(user_type != undefined && user_type != "") {
+						switch (user_type) {
+						case "0":
+							str = "<i class='fa fa-user'></i> พนักงานภาค: "+dept+" "+user;
+							$("#a-admin,#a-accept,#a-report,#a-menu-sumup,#a-project-file").remove();
+							break;
+						case "1":
+							str = "<i class='fa fa-user'></i> หัวหน้าภาค: "+dept+" "+user;
+							$("#a-admin,#a-project-file").remove();
+							break;
+						case "2":	
+							str = "<i class='fa fa-star'></i> ผู้ดูแล"+" "+user;
+							$("#a-accept,#a-create,#a-report").remove();
+							break;
+						default:
+							break;
+					}
+						$("#login-nav").attr("for",user_type).prepend(str);
+						$("#a-login").hide();
+						$("#a-logout").show();
+						$("#a-logout").click(function() {
+							if(!confirm('คุณต้องการออกจากระบบ?')) {
+								return false;
+							}
+						});
+					} else {
+						$("#a-login").show();
+					}
+
+
+					$("#a-accept").click(function (e) {
+						if(user_type == 0) {
+							alert("จำกัดสิทธิการเข้าถึง: หัวหน้าภาค เท่านั้น");
+							return false;
+						}
+					});
+
+					$("#a-create").click(function (e) {
+						if(user_type == 2 ) {
+							alert("จำกัดสิทธิการเข้าถึง: หัวหน้าภาค หรือ พนักงานเท่านั้น เท่านั้น ");
+							return false;
+						} else {
+							$(this).attr("href","create_project.php");
+						}
+					});
+
+					$("#a-distict,#a-mission").click(function (e) {
+						if(user_type == 0 ) {
+							alert("จำกัดสิทธิการเข้าถึง: หัวหน้าภาค เท่านั้น");
+							return false;
+						}
+					});
+
+					$("#a-admin").click(function (e) {
+						if(user_type != 2 ) {
+							alert("จำกัดสิทธิการเข้าถึง: ผู้ดูแลระบบ เท่านั้น");
+							return false;
+						} else {
+							$(this).attr("href","admin_mission.php");
+						}
+					})
+				});
+			</script>
+			<!--end login-->
+		</header>
+		<div class="magin-top-with-sticky"></div> <!-- dont delete-->
+		<!-- /. Header End ./ -->
+</body

@@ -1,8 +1,17 @@
+import './css/bootstrap.css'
+
+import $ from 'jquery'
+import Popper from './../node_modules/popper.js'
+import './../node_modules/bootstrap/dist/js/bootstrap'
+import './js/custom'
+
+
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
